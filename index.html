@@ -2,10 +2,28 @@
   <head>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="app/css/main.css"/>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   </head>
-  <nav>
-
-  </nav>
+  <!-- <nav class="navbar navbar-default navbar-fixed-top" ng-controller="NavigationController">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a ui-sref="main">Home</a>
+          </li>
+          <li>
+            <a ui-sref="about">About</a>
+          </li>
+          <li>
+            <a ui-sref="blog">Blog</a>
+          </li>
+          <li>
+            <a ui-sref="projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
   <body>
     <div ui-view>
 
@@ -13,4 +31,8 @@
   </body>
   <script src="node_modules/angular/angular.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.17/angular-ui-router.min.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/main/main-controller.js"></script>
+  <script src="app/navigation/navigation-controller.js"></script>
+  <script src="app/about/about-controller.js"></script>
 </html>

@@ -1,0 +1,66 @@
+.jumbotron {
+  /*background-color: #f9df4a;
+  background-color: #f4f0d4;*/
+  background-color:#ffffff;
+  position:relative;
+  padding: 50px 50px 25px 50px;
+  margin-bottom: 0px;
+
+}
+.jumbotron h1 {
+  font-family: oran;
+  font-size: 3.5em;
+  /* -webkit-font-smoothing: antialiased; */
+}
+
+.jumbotron h1 i {
+  font-size: 0.6em;
+}
+@font-face {
+    font-family: oran;
+    src: url('../fonts/Forum-Rfegular.ttf');
+}
+.about {
+  padding-left: 50px;
+  font-family: oran;
+
+}
+.blog {
+  padding-left: 50px;
+  font-family: oran;
+
+}
+.projects {
+  padding-left: 50px;
+  font-family: oran;
+}
+.headingBio {
+  font-family: oran;
+  font-size: 2em;
+}
+.subHeadingBio {
+  padding-top: 20px;
+}
+.about-container ul {
+  list-style:none;
+  padding-left:0;
+  font-family: oran;
+  font-size: 2em;
+}
+a:link {
+  text-decoration: underline;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+.subHeadingBio a:link {
+  text-decoration: underline;
+  color: black;
+}
+
+.subHeadingBio a:hover {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,34 @@
+<div class="jumbotron">
+  <div>
+    <h1>William Chavez</h1>
+    <div class="headingBio">
+      <div>
+        Software Engineer <a href="https://twitter.com/LockheedMartin" target="_blank">@LockheedMartin</a> & <a href="https://twitter.com/FIU" target="_blank">@FIU</a> alum
+      </div>
+      <div class="subHeadingBio">
+        <a ui-sref="about">View Bio</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div class="blog">
+  <h3>
+    <a ui-sref="blog">Blog</a>
+  </h3>
+    <ul>
+      <li ng-repeat="blogTitle in blogPostTitles">
+        {{blogTitle}}
+      </li>
+    </ul>
+</div>
+<div class="projects">
+  <h3>
+    <a ui-sref="projects">Projects</a>
+  </h3>
+    <ul>
+      <li ng-repeat="projectTitle in projectTitles">
+        {{projectTitle}}
+      </li>
+    </ul>
+</div>
