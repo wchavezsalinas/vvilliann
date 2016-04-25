@@ -14,6 +14,16 @@
               url: "/",
               templateUrl:"app/main/main.html",
               controller: "MainController"
+            })
+            .state('blog', {
+              url: "/blog",
+              templateUrl:"app/blog/blog.html",
+              controller: "BlogController"
+            })
+            .state('projects', {
+              url: "/projects",
+              templateUrl:"app/projects/projects.html",
+              controller: "ProjectsController"
             });
     });
 }());

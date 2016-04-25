@@ -1,7 +1,11 @@
+body {
+  background-color: #f9df4a;
+}
 .jumbotron {
   /*background-color: #f9df4a;
-  background-color: #f4f0d4;*/
-  background-color:#ffffff;
+  background-color: #f4f0d4;
+  background-color:#ffffff;*/
+  background-color: #f9df4a;
   position:relative;
   padding: 50px 50px 25px 50px;
   margin-bottom: 0px;
@@ -18,7 +22,7 @@
 }
 @font-face {
     font-family: oran;
-    src: url('../fonts/Forum-Rfegular.ttf');
+    src: url('../fonts/Forum-egular.ttf');
 }
 .about {
   padding-left: 50px;
@@ -26,11 +30,12 @@
 
 }
 .blog {
+  font-size:1.5em;
   padding-left: 50px;
   font-family: oran;
-
 }
 .projects {
+  font-size:1.5em;
   padding-left: 50px;
   font-family: oran;
 }
@@ -47,6 +52,10 @@
   font-family: oran;
   font-size: 2em;
 }
+a {
+  color: black;
+  text-decoration: underline;
+}
 a:link {
   text-decoration: underline;
   color: black;
@@ -59,8 +68,27 @@ a:hover{
   text-decoration: underline;
   color: black;
 }
-
 .subHeadingBio a:hover {
   text-decoration: none;
   color: black;
+}
+
+.aboutFooter {
+  z-index:2;
+  background-color:#f9df4a;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  font-size: 2em;
+  font-family: oran;
+}
+.aboutFooter i {
+  font-size: 0.6em;
+}
+.socialStuff div {
+  padding-top:25px;
+  font-size: 2em;
+  font-family: oran;
 }
