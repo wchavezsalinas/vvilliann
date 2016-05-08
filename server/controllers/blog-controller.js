@@ -16,3 +16,17 @@ module.exports.get = function(req, res) {
             }
         );
 };
+
+module.exports.getPost = function(req, res) {
+  var blogURL = req.query.blog_url;
+    BlogPosts.find({'url': blogURL})
+        .exec(
+            function(err, blogPosts) {
+                if (err) {
+                    res.error(err);
+                } else {
+                    res.json(blogPosts[0]);
+                }
+            }
+        );
+}

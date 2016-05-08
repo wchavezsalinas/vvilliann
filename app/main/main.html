@@ -18,8 +18,8 @@
     <a ui-sref="blog">Blog</a>
   </h3>
     <ul>
-      <li ng-repeat="blogTitle in blogPostTitles">
-        {{blogTitle}}
+      <li ng-repeat="post in posts" >
+        <a ui-sref="post({url: post.url, blogPost: post})">{{post.title}}</a>
       </li>
     </ul>
 </div>

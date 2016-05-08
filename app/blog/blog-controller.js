@@ -6,7 +6,6 @@
                 function getBlogPosts(initial) {
                     $http.get('api/blog/get')
                         .success(function(response) {
-                            console.log(response);
                             if (initial) {
                                 $scope.posts = response;
                             }

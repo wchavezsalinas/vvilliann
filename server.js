@@ -21,6 +21,7 @@ app.get('/', function(req, res) {
 //Blog Posts
 app.post('/api/blog/post', blogController.post);
 app.get('/api/blog/get', blogController.get);
+app.get('/api/blog/getPost', blogController.getPost);
 
 //Projects
 app.post('/api/projects/post', projectController.post);

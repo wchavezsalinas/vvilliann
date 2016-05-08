@@ -1,7 +1,25 @@
 <div class="jumbotron">
   <div>
     <h1>
-      Projects
+      Projects <i class="em em-book"></i>
     </h1>
   </div>
+</div>
+<div class="project-body">
+  <ui>
+    <li ng-repeat="project in projects">
+      <div class="project-title">
+        <a ui-sref="project({url:project.url, blogPost: project})">{{project.title}}</a>
+      </div>
+      <div class="project-content-preview">
+        {{project.preview}}
+      </div>
+      <div class="project-footer">
+        By {{project.author}} @ {{project.date | date:'short'}}
+      </div>
+    </li>
+  </ui>
+</div>
+<div class="aboutFooter">
+  <i class="em em-arrow_left"></i> <a ui-sref="main">Back to home page.</a>
 </div>

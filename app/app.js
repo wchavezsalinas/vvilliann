@@ -21,11 +21,11 @@
                 controller: "BlogController"
             })
             .state('post', {
-                url: "/blog/:title",
+                url: "/blog/:url",
                 templateUrl: "app/blog/blog-post.html",
                 controller: "BlogPostController",
                 params: {
-                    title: null,
+                    url: null,
                     blogPost: null
                 }
             })
@@ -33,6 +33,15 @@
                 url: "/projects",
                 templateUrl: "app/projects/projects.html",
                 controller: "ProjectsController"
+            })
+            .state('project', {
+                url: "/projects/:url",
+                templateUrl: "app/projects/project-post.html",
+                controller: "ProjectPostController",
+                params: {
+                    url: null,
+                    project: null
+                }
             });
     });
 }());
