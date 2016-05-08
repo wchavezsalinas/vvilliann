@@ -9,7 +9,8 @@ module.exports.get = function(req, res) {
         .exec(
             function(err, blogPosts) {
                 if (err) {
-                    res.error(err);
+                    //res.error(err);
+                    console.log(error);
                 } else {
                     res.json(blogPosts);
                 }
