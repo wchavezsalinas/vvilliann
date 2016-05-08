@@ -1,0 +1,15 @@
+<div class="jumbotron">
+  <div>
+    <h1>
+      {{post.title}}
+    </h1>
+  </div>
+</div>
+<div class="blog-body">
+  <div class="blog-content">
+    {{post.content}}
+  </div>
+  <div class="blog-footer">
+    By {{post.author}} @ {{post.date | date:'short'}}
+  </div>
+</div>

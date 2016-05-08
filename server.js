@@ -15,7 +15,7 @@ app.use('/app', express.static(__dirname + "/app"));
 app.use('/node_modules', express.static(__dirname + "/node_modules"));
 
 app.get('/', function(req, res) {
-  res.sendfile('index.html');
+    res.sendfile('index.html');
 })
 
 //Blog Posts
@@ -27,5 +27,5 @@ app.post('/api/projects/post', projectController.post);
 app.get('/api/projects/get', projectController.get);
 
 app.listen("3000", function() {
-  console.log("listening for localhost(3000)");
+    console.log("listening for localhost(3000)");
 });
