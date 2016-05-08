@@ -1,0 +1,22 @@
+<div class="jumbotron">
+  <div>
+    <h1>
+      Blog
+    </h1>
+  </div>
+</div>
+<div class="blog-body">
+  <ui>
+    <li ng-repeat="post in posts">
+      <div class="blog-title">
+        {{post.title}}
+      </div>
+      <div class="blog-content">
+        {{post.content}}
+      </div>
+      <div class="blog-footer">
+        By {{post.author}} @ {{post.date | date:'short'}}
+      </div>
+    </li>
+  </ui>
+</div>
