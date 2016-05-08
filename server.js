@@ -26,6 +26,7 @@ app.get('/api/blog/getPost', blogController.getPost);
 //Projects
 app.post('/api/projects/post', projectController.post);
 app.get('/api/projects/get', projectController.get);
+app.get('/api/projects/getPost', projectController.getPost);
 
 app.listen("3000", function() {
     console.log("listening for localhost(3000)");

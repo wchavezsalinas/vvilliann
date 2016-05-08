@@ -28,8 +28,8 @@
     <a ui-sref="projects">Projects</a>
   </h3>
     <ul>
-      <li ng-repeat="projectTitle in projectTitles">
-        {{projectTitle}}
+      <li ng-repeat="project in projects" >
+        <a ui-sref="project({url: project.url, project: project})">{{project.title}}</a>
       </li>
     </ul>
 </div>

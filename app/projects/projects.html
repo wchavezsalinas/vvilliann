@@ -1,7 +1,7 @@
 <div class="jumbotron">
   <div>
     <h1>
-      Projects <i class="em em-book"></i>
+      Projects <i class="em em-school_satchel"></i>
     </h1>
   </div>
 </div>
@@ -9,7 +9,7 @@
   <ui>
     <li ng-repeat="project in projects">
       <div class="project-title">
-        <a ui-sref="project({url:project.url, blogPost: project})">{{project.title}}</a>
+        <a ui-sref="project({url:project.url, project: project})">{{project.title}}</a>
       </div>
       <div class="project-content-preview">
         {{project.preview}}
