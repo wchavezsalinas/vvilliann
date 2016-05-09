@@ -1,0 +1,41 @@
+/*
+ * Project Page CSS
+ */
+.projects {
+     font-size: 1.5em;
+     padding-left: 50px;
+     font-family: oran;
+ }
+
+ .projectPage {
+    background-color: #D74F39;
+    height:100vh;
+    color: black;
+  }
+
+ .projectPage .jumbotron {
+   background-color: #D74F39;
+ }
+
+ .projectPage .blog-body {
+   background-color: #D74F39;
+ }
+
+ .projectPage .aboutFooter {
+   background-color: #D74F39;
+ }
+
+.project-body {
+    font-family: oran;
+    font-size: 1.5em;
+    padding-left: 50px;
+}
+.project-body li {
+    list-style-type: none;
+}
+.project-body .project-title {}
+.project-body .project-content {}
+.project-body .project-footer {
+    font-size: 0.75em;
+    padding-top: 20px;
+}

@@ -1,18 +1,20 @@
-<div class="jumbotron">
-  <div>
-    <h1>
-      {{project.title}}
-    </h1>
+<div class="projectPage">
+  <div class="jumbotron">
+    <div>
+      <h1>
+        {{project.title}}
+      </h1>
+    </div>
   </div>
-</div>
-<div class="project-body">
-  <div class="project-content">
-    {{project.content}}
+  <div class="project-body">
+    <div class="project-content">
+      {{project.content}}
+    </div>
+    <div class="project-footer">
+      By {{project.author}} @ {{project.date | date:'short'}}
+    </div>
   </div>
-  <div class="project-footer">
-    By {{project.author}} @ {{project.date | date:'short'}}
+  <div class="aboutFooter">
+    <i class="em em-arrow_left"></i> <a ui-sref="main">Back to home page.</a>
   </div>
-</div>
-<div class="aboutFooter">
-  <i class="em em-arrow_left"></i> <a ui-sref="main">Back to home page.</a>
 </div>

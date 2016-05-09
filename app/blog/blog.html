@@ -1,25 +1,27 @@
-<div class="jumbotron">
-  <div>
-    <h1>
-      Blog <i class="em em-book"></i>
-    </h1>
+<div class="blogPage">
+  <div class="jumbotron">
+    <div>
+      <h1>
+        Blog <i class="em em-book"></i>
+      </h1>
+    </div>
   </div>
-</div>
-<div class="blog-body">
-  <ui>
-    <li ng-repeat="post in posts">
-      <div class="blog-title">
-        <a ui-sref="post({url:post.url, blogPost: post})">{{post.title}}</a>
-      </div>
-      <div class="blog-content-preview">
-        {{post.preview}}
-      </div>
-      <div class="blog-footer">
-        By {{post.author}} @ {{post.date | date:'short'}}
-      </div>
-    </li>
-  </ui>
-</div>
-<div class="aboutFooter">
-  <i class="em em-arrow_left"></i> <a ui-sref="main">Back to home page.</a>
+  <div class="blog-body">
+    <ui>
+      <li ng-repeat="post in posts">
+        <div class="blog-title">
+          <a ui-sref="post({url:post.url, blogPost: post})">{{post.title}}</a>
+        </div>
+        <div class="blog-content-preview">
+          {{post.preview}}
+        </div>
+        <div class="blog-footer">
+          By {{post.author}} @ {{post.date | date:'short'}}
+        </div>
+      </li>
+    </ui>
+  </div>
+  <div class="aboutFooter">
+    <i class="em em-arrow_left"></i> <a ui-sref="main">Back to home page.</a>
+  </div>
 </div>

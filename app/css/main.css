@@ -1,11 +1,12 @@
-body {
-    background-color: #f9df4a;
+.mainPage {
+  height:100vh;
+  background-color: #f9df4a;
+
+}
+.mainPage .jumbotron {
+  background-color: #f9df4a;
 }
 .jumbotron {
-    /*background-color: #f9df4a;
-  background-color: #f4f0d4;
-  background-color:#ffffff;*/
-    background-color: #f9df4a;
     position: relative;
     padding: 50px 50px 25px 50px;
     margin-bottom: 0px;
@@ -22,20 +23,8 @@ body {
     font-family: oran;
     src: url('../fonts/Forum-egular.ttf');
 }
-.about {
-    padding-left: 50px;
-    font-family: oran;
-}
-.blog {
-    font-size: 1.5em;
-    padding-left: 50px;
-    font-family: oran;
-}
-.projects {
-    font-size: 1.5em;
-    padding-left: 50px;
-    font-family: oran;
-}
+
+
 .headingBio {
     font-family: oran;
     font-size: 2em;
@@ -43,12 +32,7 @@ body {
 .subHeadingBio {
     padding-top: 20px;
 }
-.about-container ul {
-    list-style: none;
-    padding-left: 0;
-    font-family: oran;
-    font-size: 2em;
-}
+
 a {
     color: black;
     text-decoration: underline;
@@ -79,50 +63,4 @@ a:hover {
     padding-bottom: 10px;
     font-size: 2em;
     font-family: oran;
-}
-.aboutFooter i {
-    font-size: 0.6em;
-}
-.socialStuff div {
-    padding-top: 25px;
-    font-size: 2em;
-    font-family: oran;
-}
-
-/*
- * Blog Page CSS
- */
-
-.blog-body {
-    font-family: oran;
-    font-size: 1.5em;
-    padding-left: 50px;
-}
-.blog-body li {
-    list-style-type: none;
-}
-.blog-body .blog-title {}
-.blog-body .blog-content {}
-.blog-body .blog-footer {
-    font-size: 0.75em;
-    padding-top: 20px;
-}
-
-/*
- * Project Page CSS
- */
-
-.project-body {
-    font-family: oran;
-    font-size: 1.5em;
-    padding-left: 50px;
-}
-.project-body li {
-    list-style-type: none;
-}
-.project-body .project-title {}
-.project-body .project-content {}
-.project-body .project-footer {
-    font-size: 0.75em;
-    padding-top: 20px;
 }

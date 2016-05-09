@@ -1,0 +1,38 @@
+.about {
+    padding-left: 50px;
+    font-family: oran;
+}
+
+.aboutPage {
+   background-color: #76B747;
+   height:100vh;
+   color: black;
+ }
+
+.aboutPage .jumbotron {
+  background-color: #76B747;
+}
+
+.aboutPage .blog-body {
+  background-color: #76B747;
+}
+
+.aboutPage .aboutFooter {
+  background-color: #76B747;
+}
+
+.about-container ul {
+    list-style: none;
+    padding-left: 0;
+    font-family: oran;
+    font-size: 2em;
+}
+
+.aboutFooter i {
+    font-size: 0.6em;
+}
+.socialStuff div {
+    padding-top: 25px;
+    font-size: 2em;
+    font-family: oran;
+}

@@ -1,35 +1,39 @@
-<div class="jumbotron">
-  <div>
-    <h1>William Chavez <i class="em em-bear"></i></h1>
-    <div class="headingBio">
-      <div>
-        Software Engineer <a href="https://twitter.com/LockheedMartin" target="_blank">@LockheedMartin</a> & <a href="https://twitter.com/FIU" target="_blank">@FIU</a> alum
-      </div>
-      <div>& soon to be grad student <a href="https://twitter.com/GeorgiaTech" target="_blank">@GeorgiaTech</a>
-      </div>
-      <div class="subHeadingBio">
-        <a ui-sref="about">View My Bio (´｡• ω •｡`) ♡</a>
+<div class="mainPage">
+  <div class="jumbotron">
+    <div>
+      <h1>William Chavez <i class="em em-bear"></i></h1>
+      <div class="headingBio">
+        <div>
+          Software Engineer <a href="https://twitter.com/LockheedMartin" target="_blank">@LockheedMartin</a> & <a href="https://twitter.com/FIU" target="_blank">@FIU</a> alum
+        </div>
+        <div>& soon to be grad student <a href="https://twitter.com/GeorgiaTech" target="_blank">@GeorgiaTech</a>
+        </div>
+        <div class="subHeadingBio">
+          <a ui-sref="about">View My Bio (´｡• ω •｡`) ♡</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="blog">
-  <h3>
-    <a ui-sref="blog">Blog</a>
-  </h3>
-    <ul>
-      <li ng-repeat="post in posts" >
-        <a ui-sref="post({url: post.url, blogPost: post})">{{post.title}}</a>
-      </li>
-    </ul>
-</div>
-<div class="projects">
-  <h3>
-    <a ui-sref="projects">Projects</a>
-  </h3>
-    <ul>
-      <li ng-repeat="project in projects" >
-        <a ui-sref="project({url: project.url, project: project})">{{project.title}}</a>
-      </li>
-    </ul>
+  <div class="main-body">
+    <div class="blog">
+      <h3>
+        <a ui-sref="blog">Blog</a>
+      </h3>
+        <ul>
+          <li ng-repeat="post in posts" >
+            <a ui-sref="post({url: post.url, blogPost: post})">{{post.title}}</a>
+          </li>
+        </ul>
+    </div>
+    <div class="projects">
+      <h3>
+        <a ui-sref="projects">Projects</a>
+      </h3>
+        <ul>
+          <li ng-repeat="project in projects" >
+            <a ui-sref="project({url: project.url, project: project})">{{project.title}}</a>
+          </li>
+        </ul>
+    </div>
+  </div>
 </div>
