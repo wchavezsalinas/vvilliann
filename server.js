@@ -1,10 +1,12 @@
 //Server file running express, mongoose, & body-parser
 //sends index.html & listens on port 3000
-var express = require('express');
+var express = require('express')
+  , http = require('http');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
 var app = express();
+var server = http.createServer(app);
 var blogController = require('./server/controllers/blog-controller');
 var projectController = require('./server/controllers/projects-controller');
 
@@ -14,7 +16,7 @@ app.use(bodyParser.json());
 app.use('/app', express.static(__dirname + "/app"));
 app.use('/node_modules', express.static(__dirname + "/node_modules"));
 
-app.get('/', function(req, res) {
+app.get('*', function(req, res) {
     res.sendfile('index.html');
 })
 

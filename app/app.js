@@ -1,9 +1,10 @@
 (function() {
     angular.module('vvilliann', ['ui.router'])
 
-    .config(function($stateProvider, $urlRouterProvider) {
-        $urlRouterProvider.otherwise('/');
+    .config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
+        function($stateProvider, $urlRouterProvider, $locationProvider) {
 
+        $urlRouterProvider.otherwise('/');
         $stateProvider
             .state('about', {
                 url: "/about",
@@ -43,5 +44,6 @@
                     project: null
                 }
             });
-    });
+        $locationProvider.html5Mode(true);
+    }]);
 }());

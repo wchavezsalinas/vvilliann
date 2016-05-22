@@ -64,3 +64,11 @@ a:hover {
     font-size: 2em;
     font-family: oran;
 }
+.freelancin {
+  padding-top:20px;
+  font-family: oran;
+}
+
+.freelancin a {
+  color: black;
+}
