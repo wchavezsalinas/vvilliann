@@ -16,27 +16,4 @@
       </div>
     </div>
   </div>
-  <div class="main-body">
-    <div class="blog">
-      <h3>
-        <a ui-sref="blog">Blog</a>
-      </h3>
-        <ul>
-          <li ng-repeat="post in posts" >
-            <a ui-sref="post({url: post.url, blogPost: post})">{{post.title}}</a>
-          </li>
-        </ul>
-    </div>
-    <div class="projects">
-      <h3>
-        <a ui-sref="projects">Projects</a>
-      </h3>
-        <ul>
-          <li ng-repeat="project in projects" >
-            <a ui-sref="project({url: project.url, project: project})">{{project.title}}</a>
-          </li>
-        </ul>
-    </div>
-
-  </div>
 </div>
