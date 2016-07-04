@@ -101,3 +101,55 @@ a:hover {
   -o-animation-delay: 0.25s;
   animation-delay: 0.25s;
 }
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width: 320px) and (max-width: 481px) {
+  .jumbotron h1 {
+      font-size: 6em;
+  }
+  .headingBio {
+      font-size: 2em;
+  }
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width: 481px) and (max-width: 640px) {
+  .jumbotron h1 {
+      font-size: 10em;
+  }
+  .headingBio {
+      font-size: 4.2em;
+  }
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width: 640px) and (max-width: 960px) {
+  .jumbotron h1 {
+      font-size: 8em;
+  }
+  .headingBio {
+      font-size: 3.4em;
+  }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width: 960px) and (max-width: 3000px) {
+  .jumbotron h1 {
+      font-size: 6em;
+  }
+  .headingBio {
+      font-size: 2.8em;
+  }
+}
+
+
+/* big landscape tablets, laptops, and desktops */
+/*@media  not all and (min-width:1080px) {
+
+  .jumbotron h1 {
+      font-size: 3.5em;
+  }
+  .headingBio {
+    font-size: 1.5em;
+  }
+}*/
