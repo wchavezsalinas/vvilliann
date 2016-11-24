@@ -10,6 +10,7 @@
     position: relative;
     padding: 50px 50px 25px 50px;
     margin-bottom: 0px;
+    text-align: center;
 }
 .jumbotron h1 {
     font-family: oran;
@@ -22,7 +23,6 @@
 
 
 .headingBio {
-    font-family: "acier-bat-noir",sans-serif;
     font-size: 2em;
 }
 .subHeadingBio {
@@ -58,11 +58,9 @@ a:hover {
     padding-left: 50px;
     padding-bottom: 10px;
     font-size: 2em;
-    font-family: "acier-bat-noir",sans-serif;
 }
 .freelancin {
   padding-top:20px;
-  font-family: "acier-bat-noir",sans-serif;
 }
 
 .freelancin a {
@@ -71,6 +69,7 @@ a:hover {
 
 
 #titleMain {
+  font-family: "acier-bat-noir",sans-serif;
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   -ms-animation-duration: 1s;
@@ -137,15 +136,3 @@ a:hover {
       font-size: 2.8em;
   }
 }
-
-
-/* big landscape tablets, laptops, and desktops */
-/*@media  not all and (min-width:1080px) {
-
-  .jumbotron h1 {
-      font-size: 3.5em;
-  }
-  .headingBio {
-    font-size: 1.5em;
-  }
-}*/
