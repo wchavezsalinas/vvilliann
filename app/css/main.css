@@ -107,6 +107,10 @@ a:hover {
   .headingBio {
       font-size: 2em;
   }
+  #bodyMain {
+    font-size:2em;
+  }
+
 }
 
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
@@ -116,6 +120,9 @@ a:hover {
   }
   .headingBio {
       font-size: 4.2em;
+  }
+  #bodyMain {
+    font-size:2em;
   }
 }
 
