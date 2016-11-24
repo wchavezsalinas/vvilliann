@@ -84,6 +84,8 @@ a:hover {
 }
 
 #bodyMain {
+  font-size: 2.5em;
+  margin-top: 2em;
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   -ms-animation-duration: 1s;
