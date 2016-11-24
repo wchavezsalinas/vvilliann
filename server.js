@@ -10,7 +10,7 @@ var server = http.createServer(app);
 var blogController = require('./server/controllers/blog-controller');
 var projectController = require('./server/controllers/projects-controller');
 
-mongoose.connect('mongodb://localhost/vvilliann');
+mongoose.connect('mongodb://guest:guest@ec2-52-91-121-17.compute-1.amazonaws.com:27017/vvilliann');
 
 app.use(bodyParser.json());
 app.use('/app', express.static(__dirname + "/app"));
@@ -30,6 +30,6 @@ app.post('/api/projects/post', projectController.post);
 app.get('/api/projects/get', projectController.get);
 app.get('/api/projects/getPost', projectController.getPost);
 
-app.listen("3000", function() {
-    console.log("listening for localhost(3000)");
+app.listen("80", function() {
+    console.log("listening for localhost(80)");
 });
