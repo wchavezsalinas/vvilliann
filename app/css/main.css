@@ -19,14 +19,10 @@
 .jumbotron h1 i {
     font-size: 0.6em;
 }
-@font-face {
-    font-family: oran;
-    src: url('../fonts/Forum-egular.ttf');
-}
 
 
 .headingBio {
-    font-family: oran;
+    font-family: "acier-bat-noir",sans-serif;
     font-size: 2em;
 }
 .subHeadingBio {
@@ -62,11 +58,11 @@ a:hover {
     padding-left: 50px;
     padding-bottom: 10px;
     font-size: 2em;
-    font-family: oran;
+    font-family: "acier-bat-noir",sans-serif;
 }
 .freelancin {
   padding-top:20px;
-  font-family: oran;
+  font-family: "acier-bat-noir",sans-serif;
 }
 
 .freelancin a {

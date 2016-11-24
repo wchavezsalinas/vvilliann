@@ -1,6 +1,6 @@
 .about {
     padding-left: 50px;
-    font-family: oran;
+    font-family: "acier-bat-noir",sans-serif;
 }
 
 .aboutPage {
@@ -34,5 +34,5 @@
 .socialStuff div {
     padding-top: 25px;
     font-size: 3.5em;
-    font-family: oran;
+    font-family: "acier-bat-noir",sans-serif;
 }
